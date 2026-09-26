@@ -16,10 +16,12 @@ After gathering the policies, we analyze the results using the **Policy Analyzer
 
 ## Linux
 
-For Linux systems, we use the **Lynis** tool to perform security audits. Lynis helps identify misconfigurations, vulnerabilities, and provides recommendations to improve system security.
+For Linux systems, we use the **Lynis** and **OpenSCAP** tools to perform security audits, identify misconfigurations, and assess compliance with security baselines.
 
 - [Lynis Setup Guide](linux/lynis-setup-guide.md)
 - [Lynis Scan Example](linux/lynis-scan-example.md)
+- [OpenSCAP CIS audit operations guide (Persian)](linux_audit_hardening_by_openscap/MANUAL_FA.md)
+- [Production-safe OpenSCAP audit on Ubuntu 24.04 (Persian)](linux_audit_hardening_by_openscap/OPERATIONAL_AUDIT_UBUNTU24_FA.md)
 
 ## License
 
