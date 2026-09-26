@@ -2,6 +2,12 @@
 
 این procedure فقط audit انجام می‌دهد و هیچ `--remediate`، Ansible remediation یا تغییر hardening اجرا نمی‌کند.
 
+## فایل runner
+
+- [دانلود مستقیم runner محدودشده](./cis-openscap-audit.sh)
+- SHA-256 نسخهٔ تست‌شده: `e4bc850760ea1655090e82aa0f7f3e827bd6cdc33dabcd6cc2f5996131e8f27d`
+
+
 تنظیمات پیش‌فرض runner:
 
 - پروفایل: CIS Ubuntu 24.04 Level 1 Server
